@@ -1,0 +1,58 @@
+body{
+    background-color: aqua;
+}
+.container-calc{
+
+    background-color: white;
+    height: 550px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.screen{
+    height: 200px;
+    width: 300px;
+    background-color: burlywood;
+}
+.taskbar{
+    height: 25px;
+    width: 300px;
+    background-color: coral;
+    
+}
+p{
+    font-size: medium;
+    color: gray;
+}
+.screen-value{
+    margin-left: 125px;
+}
+.grid-container{
+    height: 325px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.grid-item{
+    height: 30px;
+    width: 300px;
+    /* background-color: gray; */
+
+}
+.toggle{
+    height: 15px;
+    width: 35px;
+    background-color: grey;
+    border-radius: 7px;
+    margin-top: 10px;
+    
+}
+.toggle-dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
