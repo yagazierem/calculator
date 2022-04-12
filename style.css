@@ -14,7 +14,7 @@ main{
     width: 300px;
     font-size: 20px;
     margin-left: 100px;
-    background-color: white;
+    background-color: rgb(81,85,95);
     
     border-radius: 10px;
     padding: 20px;
@@ -42,19 +42,24 @@ main{
 
 }
 .grid-container{
-    display: inline-grid;
-    grid-template-columns: repeat(4, 5fr);
+    display: grid;
+    grid-template-columns: repeat(4, 6fr);
     height: 400px;
     width: 300px;
     /* background-color: rgb(228,231,232); */
     
     
 }
+.item-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .toggle{
     height: 15px;
     width: 30px;
     border-radius: 7px;
     background-color: rgb(187,195,201);
+    
 }
 .white-dot{
     height: 15px;
@@ -64,15 +69,28 @@ main{
 }
 .arrow-key{
     background-color: rgb(228,231,232);
-    height: 35px;
+    height: 5px;
     width: 40px;
     border-radius: 50%;
-    
-    
+        
 }
 .button{
-    background-color: rgb(228,231,232);
+    background-color: white;
     height: 35px;
-    width: 40px;
-    border-radius: 50%;
+    width: 35px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: -2px -2px 2px 2px white;
+    padding: 5px;
+    
+}
+.total{
+    
+    width: 30px;
+    text-align: center;
+    
+}
+.reset{
+    color: white;
+    background-color: rgb(227,125,47);
 }

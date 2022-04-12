@@ -22,3 +22,4 @@ console.log("4" == 4);
 let age = 30;
 let result = (age > 21) && (age < 65);
 console.log(result);
+
