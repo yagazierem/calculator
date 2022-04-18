@@ -2,10 +2,11 @@
 
 
 #Primary Colors
-- orange: rgb(227,125,47)
-- blue: rgb(78,11,203)
-- grey: rgb(187,195,201)
-- light grey: rgb(228,231,232)
+- yellow: rgb(254,185,45)
+- light-yellow: rgb(253,184,44)
+- purple: rgb(147,42,230)
+- light-grey: rgb(166,176,178)
+- grey: rgb(161,168,174)
 - light ash: rgb(182,177,199)
 - dark-grey: rgb(81,85,95)
 
