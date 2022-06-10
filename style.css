@@ -119,3 +119,12 @@ button:focus {
     height: 100px;
     width: 45px;
 }
+/* 
+@media (min-width:620px){
+    .container{
+       width: 320px;
+     }
+     main{
+         width: 520px;
+     }
+      } */
